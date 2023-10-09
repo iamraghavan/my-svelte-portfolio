@@ -65,7 +65,7 @@ import { onMount } from "svelte";
 
       
 
-      console.log("Email sent successfully:", emailResponse);
+      console.log("Email sent successfully:", emailResponse); 
 
       alert("Message sent to Raghavan Mail!");
 
