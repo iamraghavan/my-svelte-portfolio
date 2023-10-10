@@ -121,6 +121,7 @@ import { onMount } from "svelte";
                                 <div class="form-group">
                                     <label class="form-label" for="service">Select Service</label>
                                     <select bind:value={selectedService} class="form-control" id="service">
+                                        <option value="">--Please choose Services--</option>
                                         <option value="Website Development">Website Development</option>
                                         <option value="Graphic Design">Graphic Design</option>
                                         <option value="Digital Marketing">Digital Marketing</option>
