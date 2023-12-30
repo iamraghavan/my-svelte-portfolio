@@ -8,6 +8,9 @@
       { name: 'LinkedIn', iconClass: 'fab fa-linkedin-in', link: 'https://www.linkedin.com/in/jsraghavan/' },
       { name: 'Github', iconClass: 'fab fa-github', link: 'https://github.com/iamraghavan' },
     ];
+
+   
+
   </script>
   
   <footer class="footer">
@@ -21,7 +24,7 @@
           </div>
         </div>
         <div class="col-md-6 py-2 text-center text-md-end">
-          <p class="m-0">  2020 - {currentYear} <span style="font-size: 1.4rem;">&copy;</span> Copyright - All Right Reserved</p>
+          <p class="m-0"> 2020 - {currentYear} <span style="font-size: 1.4rem;">&copy;</span> Copyright - All Right Reserved</p>
         </div>
       </div>
     </div>

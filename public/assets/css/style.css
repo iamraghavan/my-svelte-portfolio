@@ -31,7 +31,7 @@ Primary use:    pxdraft
   display: inline-block;
   vertical-align: top;
   margin-right: 0.65rem;
-  height: 5rem;
+  height: 4.3rem;
 }
 
 
@@ -48,7 +48,7 @@ Primary use:    pxdraft
 .powered-by > a > img {
   height: 50px;
   vertical-align: middle;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .main-header {

@@ -1,14 +1,14 @@
 <script>
 
-    import { Link } from "svelte-routing"; 
+    // import { Link } from "svelte-routing"; 
     let portfolioLogo = {
         logo_src : './assets/img/logo.svg',
         logo_title : 'Raghavan',
         logo_alt : 'Raghavan Portfolio',
         logo_class : "brand-img"
     }
-    let menuData = ['Home', 'Services','Skills','Portfolio','Contact']
-
+    let menuData = ['Home', 'Services','Skills','Portfolio','Blog','Contact']
+   
 
 </script>
 
@@ -17,6 +17,7 @@
 <header class="main-header">
     <nav class="navbar header-nav navbar-expand-lg one-page-nav">
         <div class="container">
+
             <!-- Brand -->
             <a class="navbar-brand" href="/">
                 <img src={portfolioLogo.logo_src} class={portfolioLogo.logo_class} title="" alt="">
@@ -36,7 +37,8 @@
                     <li><a class="nav-link" data-scroll-nav="1" href="#services"><span>{menuData[1]}</span></a></li>
                     <li><a class="nav-link" data-scroll-nav="2" href="#skill"><span>{menuData[2]}</span></a></li>
                     <li><a class="nav-link" data-scroll-nav="3" href="#work"><span>{menuData[3]}</span></a></li>
-                    <li><a class="nav-link" data-scroll-nav="4" href="#contactus">{menuData[4]}<span></span></a></li>
+                    <li><a class="nav-link" href="/blog"><span>{menuData[4]}</span></a></li>
+                    <li><a class="nav-link" data-scroll-nav="4" href="#contactus">{menuData[5]}<span></span></a></li>
                 </ul>
             </div>
             <!-- / -->
@@ -52,3 +54,4 @@
         </div><!-- Container -->
     </nav> <!-- Navbar -->
 </header>
+
